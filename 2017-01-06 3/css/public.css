@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    height: 100%;
+    font-family: 'Microsoft YaHei';
+    background: #ffffff;
+}
+a, a:hover, a:visited{
+    text-decoration: none;
+}
+input{
+    outline: none;
+}

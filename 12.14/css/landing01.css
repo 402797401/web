@@ -1,0 +1,264 @@
+.registered{
+    width: auto;
+    height: 100%;
+    background: #f2f2f2;
+}
+.text{
+    width: auto;
+    height: 20px;
+    padding-top: 20px;
+    line-height: 20px;
+    color: #999999;
+    text-align: center;
+}
+.information{
+    width: auto;
+    height: 34px;
+    margin: 10px 20px;
+    line-height: 34px;
+    font-size: 12px;
+    font-size: 1.2rem;
+    background: #ffffff;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -moz-border-radius: 4px; 
+    position: relative;
+}
+.phone{
+    width: 43px;
+    height: 34px;
+    position: absolute;
+    left: 0;
+    top: 0; 
+    background-image: url(../images/01.png);
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+}
+.delete{
+    width: 43px;
+    height: 34px;
+    position: absolute;
+    right: 0;
+    top: 0;  
+    background-image: url(../images/01.png);
+    background-repeat: no-repeat;
+    background-position: 10px -74px;
+}
+.number{
+    width: auto;
+    height: 34px;
+    margin: 0 40px; 
+}
+.number01{
+    width: 100%;
+    height: 20px;
+    border: none;
+    outline: none;
+    margin: 7px 0;
+    line-height: 20px;
+    font-size: 12px;
+    font-size: 1.2rem;
+    color: #999999;
+}
+.lock{
+    width: 43px;
+    height: 34px;
+    position: absolute;
+    left: 0;
+    top: 0; 
+    background-image: url(../images/01.png);
+    background-repeat: no-repeat;
+    background-position: 10px -31px;
+}
+
+.top{
+    width: auto;
+    height: 36px;
+    margin: 0 20px;
+    margin-bottom: 10px; 
+    position: relative;
+}
+.information02{
+    width: auto;
+    height: 34px;
+    line-height: 34px;
+    font-size: 12px;
+    font-size: 1.2rem;
+    background: #ffffff;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -moz-border-radius: 4px; 
+    position: relative;
+    margin-right: 95px;
+}
+
+.top01{
+    font-size: 14px;
+    font-size: 1.4rem;
+    width: 85px;
+    height: 36px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;    
+    background: #ffd27c;
+    text-align: center;
+    line-height: 36px;
+    color: #FFF;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border: none;
+    outline: none;
+}
+
+.time .top02{
+    font-size: 12px;
+    font-size: 1.2rem;
+}
+.landing{
+    width: auto;
+    height: 36px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;
+    background: #43ccf0;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 15px;
+    font-size: 1.5rem;
+    line-height: 36px;
+    color: #fff;
+    text-align: center;
+}
+.agreement{
+    width: auto;
+    height: 20px;
+    margin-top: 11px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.agreement01{
+    width: auto;
+    height: 20px;
+    color: #b2b2b2;
+    font-size: 12px;
+    font-size: 1.2rem;
+}
+.agreement02{
+    color: #43bbd5;
+}
+.agreement02:hover{
+    text-decoration: underline;
+}
+.tupian{
+    width: 32%;
+    height: auto;
+    margin: 70px auto 0 auto;
+}
+
+/*========================landing01 end======================================================*/
+
+/*---------------------------------landing-2-------------------------------------------------*/
+
+.t_1{
+    background: #bbbbbb; 
+}
+.lan_1{
+    background: #bbbbbb;
+}
+/*================================landing02 end===============================================*/
+
+/*---------------------------------landing-------------------------------------------------*/
+
+.times{
+    width: 85px;
+    height: 36px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px; 
+    background: #f94149;
+    border: none;
+    outline: none;
+    text-align: center;
+    line-height: 36px;
+    color: #FFF;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===================================landing02===================================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

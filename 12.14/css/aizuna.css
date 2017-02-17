@@ -1,0 +1,415 @@
+.aizuna{
+    background: #f2f2f2;
+}
+
+
+.top{
+    width: auto;
+    height: 41px;
+    background: #43ccf0;   
+}
+.t-left{
+    width: 15px;
+    height: 100%;
+    margin-left: 12px;
+    background: url(../images/tr-jiantou.png) center no-repeat;
+    float: left;
+}
+.t-right{
+    width: auto;
+    height: 41px;
+    line-height: 41px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-size: 1.6rem;  
+}
+
+/*------------------------*/
+.ai_pay{
+    width: 100%;
+    height: auto;
+    border: 1px solid #dfdfdf;
+    background: #fff;
+}
+.ai_pay1{
+    width: auto;
+    height: auto;
+    margin: 15px 20px 20px 20px;
+/*    background: red;  */
+}
+.span01{
+    height: 15px;
+    line-height: 15px;
+    font-size: 16px;
+    font-size: 1.6rem;
+    color: #333333;
+}
+.ai_pay2{
+    width: auto;
+    height: 12px;
+    margin-top: 15px;
+    font-size: 12px;
+    font-size: 1.2rem;
+}
+.span02{
+    width: 60px;
+    line-height: 12px;
+    color: #555555;
+    float: left;
+    text-align: right;
+    
+}
+.span03{
+    display: block;
+    line-height: 12px;
+    color: #999999;
+}
+.ai_pay3{
+    width: 100%;
+    height: 38px;
+    border-bottom: 1px solid #dfdfdf;
+    border-top: 1px solid #dfdfdf;
+    margin-top: 10px;
+    background: #fff;
+}
+.ai_pay3 span{
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    font-size: 16px;
+    color: #333333;
+    margin: 0 10px 0 20px;
+}
+.ai_pay4{
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #dfdfdf;
+    background: #fff;
+}
+.ai_pay5{
+    width: auto;
+    margin: 0 10px 0 20px;
+    position: relative;
+}
+.pay5_lfet{
+    width: 40px;
+    height: 60px;
+    background: url(../images/weixin.png)center no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+.pay5_right{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    border: 1px solid #999999;
+    position: absolute;
+    right: 0;
+    top: 20px;   
+}
+.pay5-mid{
+    width: auto;
+    height: 60px;
+    margin: 0 55px 0 50px;
+}
+.mid01{
+    width: 100%;
+    height: 16px;
+    color: #555555;
+    font-size: 16px;
+    font-size: 1.6rem;
+    padding-top: 14px;
+}
+.mid02{
+    width: 100%;
+    height: 25px;
+    color: #999999;
+    font-size: 12px;
+    font-size: 1.2rem;
+    margin-top: 7px;
+}
+.l01{
+   background: url(../images/zhifubao.png)center no-repeat; 
+}
+
+/*------------------------*/
+.affirm{
+    width: auto;
+    height: 40px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;
+    background: #43ccf0;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-size: 1.6rem;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+}
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝end＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝aizuna2＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+.aizuna2{
+    background: #fff;
+}
+.ai2_news{
+    width: auto;
+    height: 12px;
+    line-height: 12px;
+    font-size: 12px;
+    font-size: 1.2rem;
+    color: #3f557a;
+    margin: 10px 20px 0 20px;
+}
+.ai2_time{
+    width: auto;
+    height: 44px;
+    line-height: 20px;
+    font-size: 12px;
+    font-size: 1.2rem;
+    color: #999999;
+    margin: 10px 20px 0 20px;
+}
+.ai2_bottom{
+    width: 100%;
+    height: 35px;
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    background: #fff;
+    margin-top: 15px;
+}
+.bottom_left{
+    width: 50%;
+    height: 35px;
+    border-right: 1px solid #e2e2e2;
+    font-size: 12px;
+    color: #8bb0ba;
+    background: none;
+    border-top:none;
+    border-left:none;
+    border-bottom:none;
+    outline: none;
+    float: left;
+}
+.bottom_right{
+    width: 50%;
+    height: 35px;
+    font-size: 12px;
+    color: #8bb0ba;
+    background: none;
+    border: none;
+    outline: none;
+    float: left;
+}
+.ai2{
+    background: #ffd27c;
+    box-shadow: 1px 1px 1px #feda4c;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝aizuna2 end＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝aizuna3＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+.ai3_mon{
+    width: auto;
+    height: 32px;
+    line-height: 32px;
+    font-size: #333333;
+    font-size: 16px;
+    font-size: 1.6rem;
+    margin: 0 20px;
+}
+.ai3_flow{
+    width: auto;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 20px;
+}
+.flow_left{
+    width: 24px;
+    height: 24px;
+    border-radius: 24px;
+    border: 3px solid #ffe4b0;
+    background:#ffd27c;
+    font-size: 16px;
+    font-size: 1.6px;
+    color: #fff;
+    font-weight: bolder;
+    text-align: center;
+    float: left;
+}
+.flow_right{
+    width: auto;
+    height: 25px;
+    margin-left: 15px;
+    padding-top: 5px;
+
+}
+.flow_right1{
+    width: auto;
+    height: 20px;
+    background: #ffe4b0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #caaa6b;
+    text-align: center;  
+}
+.ai3_flow2{
+    width: 2px;
+    height: 5px;
+    background: #ffe4b0;
+    margin-left: 35px;
+}
+.ai3_1{
+    margin-bottom: 30px;
+}
+.ai3_pic{
+    width: auto;
+    margin: 0 20px;
+}
+.ai3_pic2{
+    width: 100%;
+    height: 2px;
+    background: #f2f2f2;
+    margin-top: 45px;
+}
+.ai3_per{
+    width: auto;
+    height: 34px;
+    line-height: 34px;
+    font-size: 16px;
+    color: #333333;
+    margin: 15px 20px 13px 20px;
+}
+.ai3_per1{
+    width: auto;
+    height: auto;
+    margin: 0 20px;
+}
+.ai3_per2{
+    width: 50px;
+    height: 50px;
+    background: url(../images/tr-16.png) no-repeat center;
+    float: left;
+}
+.ai3_per3{
+    width: auto;
+    height: auto;
+    margin-left: 70px;   
+}
+.per3_1{
+    width: 100%;
+    height: 23px;
+    line-height: 23px;
+    font-size: 12px;
+    font-size: 1.2rem;
+    color: #999999;
+}
+.per3_11{
+    width: 100%;
+    height: 25px;
+    position: relative; 
+}
+.per3_12{
+    position: absolute;
+    left: 0;
+    top: 0;
+    float: left;
+}
+.per3_2{
+    width: auto;
+    height: 25px;
+    margin: 0 2px 0 1px;
+    background: #43ccf0;
+    border-radius: 40px;
+}
+.per3_3{
+    width: auto;
+    height: 25px;
+    line-height: 25px;
+    margin: 0 18px 0 20px;
+    
+}
+.span01{
+    color: #fff;
+    font-size: 12px;
+    font-size: 1.2rem;
+    
+}
+.sanjiao{
+    width: 13px;
+    height: 25px;
+    background: url(../images/tr-17.png) center center no-repeat;
+    float:right;
+}
+.per3_4{
+    width: 100%;
+    height: auto;
+    line-height: 18px;
+    margin-top: 10px;
+    font-size: 12px;
+    font-size: 1.2rem;
+    color: #3f557a;
+    margin-top: 5px;
+}
+.per3_5{
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    margin-top: 5px;
+}
+.jiao2{
+    background: url(../images/tr-18.png) center center no-repeat;
+}
+
+.per3_6{
+    margin-bottom: 32px;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝aizuna3 end＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

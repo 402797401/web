@@ -1,0 +1,311 @@
+.member.top{
+    width:auto;
+    height: 41px;
+    background: #43ccf0;
+}
+.left{
+   width: 15px;
+    height: 100%;
+    background: url(../images/tr-jiantou.png) center no-repeat;
+    margin-left: 12px;
+    float: left;
+}
+.right{
+    width: auto;
+    height: 100%;
+    line-height: 41px;
+    text-align: center;
+    font-size: 16px;
+    font-size: 1.6rem;
+    color: #fff;    
+}
+.data{
+    width: auto;
+    height: auto;
+    border-bottom: 1px solid #e2e2e2;
+}
+.data01{
+    width: auto;
+    height: 25px;
+    line-height: 25px;
+    display: block;
+    margin: 15px 20px 0 20px;
+    font-size: 16px;
+    font-size: 1.6rem;
+    color: #333333;
+    font-weight: bold;
+}
+.data02{
+    width: auto;
+    height: 20px;
+    margin: 15px 20px 0 20px;
+}
+.basis{
+    width: auto;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    font-size: 1.2rem;
+    color: #999999;
+    float: left;
+}
+.basis01{
+    width: 70px;
+    height: 20px;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    font-size: 1.2rem;
+    color: #b6b6b6;
+    display: block;
+    padding-left: 7px;
+    padding-right: 12px;
+    float: left;
+    background: none;
+}
+.basis02{
+   width: 1px;
+    height: 13px;
+    background: #d8d8d8;
+    float: left;
+    margin-top: 3.5px;
+}
+.basis03{
+    width: 90px;
+    height: 20px;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    font-size: 1.2rem;
+    color: #b6b6b6;
+    padding-left: 7px;
+    float: left;
+    background: none;
+
+}
+.basis04{
+    width: 45px;
+    height: 20px;
+    background: #fff;
+    float: right;
+}
+
+.xinfu02{
+    width: auto;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    font-size: 1.2rem;
+    text-align: right;
+    color: #8bb0ba;
+    float: right;
+}
+.xinfu{
+    width: 12px;
+    height: 12px;
+    background: url(../images/me-1.png) center no-repeat;
+    background-size: cover;
+    margin-top: 4px;
+}
+.basis05{
+    width: 1px;
+    height: 13px;
+    background: #d8d8d8;
+    float: right;
+    margin-right: 10px;
+    margin-top: 3.5px;
+}
+.matter{
+    width: auto;
+    height: auto;
+    border-bottom: 1px solid #e2e2e2;
+}
+.data03{
+    width: auto;
+    height: 100%;
+    line-height: 25px;
+    font-size: 12px;
+    font-size: 1.2px;
+    color: #3f557a;
+   float: right;
+}
+.ind{
+    width: auto;
+    height: 14px;
+    margin: 15px 20px 0 20px;
+    
+}
+.indent{
+    width: 50%;
+    height: 14px;
+    line-height: 14px;
+    font-size: 12px;
+    font-size: 1.2px;
+    color: #555555;
+    border-right: 1px solid #d8d8d8;
+    float: left;
+    margin-right: 15px;
+    
+}
+.ind span{
+    width: auto;
+    height: 100%;
+    line-height: 14px;
+    font-size: 12px;
+    font-size: 1.2px;
+    color: #999999;
+    margin-left: 7px;
+    
+}
+.indent02{
+    width: 100%;
+    height: 14px;
+    line-height: 14px;
+    font-size: 12px;
+    font-size: 1.2px;
+    color: #555555;
+    margin-left: 15px;
+}
+.indent01{
+    margin-right: 26px;
+}
+
+
+.number{
+    width: auto;
+    height: 40px;
+    margin:18px 20px 0 20px;
+    
+}
+
+.n-left{
+    width: 120px;
+    height: 40px;
+    float: left;
+    
+}
+.n-left01{
+    width: 120px;
+    height: 20px;;
+    line-height: 20px;
+    font-size: 16px;
+    font-size: 1.6rem;
+    color: #3f557a;
+    display: block;
+}
+.n-left02{
+    color: red;
+    font-style: normal;
+}
+.n-left03{
+    width: 120px;
+    height: 20px;;
+    line-height: 20px;
+    font-size: 12px;
+    font-size: 1.2rem;
+    color: #999;
+    display: block;
+    margin: 0 auto;
+}
+
+.n-right{
+    width:auto;
+    margin: 0 0 0 130px;
+    height: 40px;
+    background: #ffd27c;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px; 
+    line-height: 40px;
+    font-size: 12px;
+    font-size: 1.2rem;
+    color: #fff;
+    text-align: center;
+}
+/*========================================member end======================================================*/
+/*========================================member02======================================================*/
+.bi{
+    width: 12px;
+    height: 12px;
+    background: url(../images/tr-13.png) center no-repeat;
+    background-size: cover;
+    margin-top: 4px;
+}
+.member02{
+    margin-bottom: 18px;
+}
+.shu{
+    width: 12px;
+    height: 12px;
+    background: url(../images/tr-14.png) center no-repeat;
+    background-size: cover;
+    margin-top: 4px;
+}
+
+
+/*========================================member02 end======================================================*/
+/*========================================member03======================================================*/
+.member03{
+    background: #bbbbbb;
+}
+
+/*========================================member03 end======================================================*/
+
+
+/*========================================member04======================================================*/
+.zhao{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,0.5); 
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.shouzhi{
+    width: 110px;
+    height: 70px;
+    background: url(../images/tr-21.png) center no-repeat;
+    position: fixed;
+    top: 25px;
+    right: 35px;
+}
+.second{
+    width:100%;
+    height: 130px;
+    position: fixed;
+    top: 150px;
+    left: 0;
+}
+.sec01{
+    width: auto;
+    height: 130px;
+    margin: 0 10px 0 20px;
+    background:url(../images/tr-22.png) center no-repeat; 
+}
+.three{
+    width: 100%;
+    height: 160px;
+    position: fixed;
+    left: 0;
+    bottom: 85px;
+}
+.three01{
+    width: auto;
+    height: 160px;
+    margin: 0 110px 0 112px;
+    background:url(../images/tr-20.png) center no-repeat; 
+}
+/*========================================member04 end======================================================*/
+
+
+
+
+
+
+
+
+
+
+

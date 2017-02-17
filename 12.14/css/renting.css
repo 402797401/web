@@ -1,0 +1,194 @@
+.body{
+    height: 100%;
+    background: #f2f2f2;
+}
+.top{
+    width: auto;
+    height: 41px;
+    background: #43ccf0;
+    position: relative;
+}
+.text{
+    width: auto;
+    height: 41px;
+    line-height: 41px;
+    text-align: center;
+    font-family: "微软雅黑";
+    color: #fff;
+    font-size: 16px;
+    font-size: 1.6rem;
+}
+.return{
+    display: block;
+    width: 10px;
+    height: 100%;
+    background: url("../images/return.gif") no-repeat right center;
+    position: absolute;
+    left: 12px;
+}
+.state{
+    width: auto;
+    height:30px;
+    background: #f2f2f2;
+    border-bottom: 1px solid #d8d8d8;   
+}
+.state01{
+    width: auto;
+    height: 30px;
+    margin: 0 20px;
+}
+.audit{
+    width: auto;
+    height: 30px;
+    display: block;
+    line-height: 30px;
+    font-family: "微软雅黑";
+    color: #3f557a;
+    font-size: 14px;
+    font-size: 1.4rem;
+    float: left;
+}
+.audit01{
+    width: auto;
+    height: 30px;
+    display: block;
+    line-height: 30px;
+    font-family: "微软雅黑";
+    color: #53c124;
+    font-size: 14px;
+    font-size: 1.4rem;
+    float: left;
+}
+.result{
+    width: auto;
+    height: 30px;
+    display: block;
+    line-height: 30px;
+    font-family: "微软雅黑";
+    color: #999999;
+    font-size: 12px;
+    font-size: 1.2rem;
+    float: right;
+}
+.concrete{
+    width: auto;
+    height: 100%;
+    background: #f2f2f2;
+}
+.son{
+    width: auto;
+    height: 45px;
+    background: #fff;
+    border-bottom: 1px solid #d8d8d8;
+}
+.left{
+    width: 75px;
+    height: 45px;
+    line-height: 45px;
+    font-family: "微软雅黑";
+    color: #555555;
+    font-size: 12px;
+    font-size: 1.2rem;
+    text-align: right;
+    float: left;
+}
+.middle{
+    width: 4px;
+    height: 45px;
+    background: url("../images/hengxian.gif") center center no-repeat;
+    float: left;
+    margin: 0 10px;   
+}
+
+.right{
+    width: auto;
+    height: 20px;
+    float: left;
+    border: none;
+    outline: none;
+    margin: 13px 10px 13px 0;
+    line-height: 20px;
+    font-family: "微软雅黑";
+    color: #3f557a;
+    font-size: 12px;
+    font-size: 1.2rem;
+}
+.right01{
+    width: auto;
+    height: 45px;
+    float: left;
+    border: none;
+    line-height: 45px;
+    font-family: "微软雅黑";
+    color: #43ccf0;
+    font-size: 12px;
+    font-size: 1.2rem;
+}
+
+.modification{
+    width: auto;
+    height: 75px;
+    background: #f2f2f2;
+}
+.mod{
+    width: auto;
+    height: 40px;
+    background: #43ccf0;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -moz-border-radius: 4px;
+    box-shadow: 1px 1px 1px #43b2c8;
+    font-family: "微软雅黑";
+    color: #fff;
+    font-size: 16px;
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 40px;
+}
+.renting02{
+    font-size: 12px;
+    color: #999999;
+    float: right;
+    line-height: 30px;
+}
+.tupian{
+    width: 25px;
+    height: 20px;
+    background: url(../images/tr-09.png) center no-repeat;
+    background-size: contain;
+    float: right;
+    margin-right: 18px;
+    margin-top: 12px;
+    border: none;
+    outline: none;
+}
+.file{
+    position: absolute;
+    right: 0;
+    opacity: 0;
+}
+.mod01{
+    color: #fff;
+    background: #ffd27c;
+     box-shadow: 1px 1px 1px #e2c242;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

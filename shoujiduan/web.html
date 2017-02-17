@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5 maximum-scale=1, user-scalable=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/css.css">
+    
+    <script src="../shoujiduan/js/TouchSlide.1.1.js"></script>
+    
+    
+    <style type="text/css">
+	/* css 重置 */
+	body, p, input, h1, h2, h3, h4, h5, h6, ul, li, dl, dt, dd, form { margin: 0; padding: 0; list-style: none; vertical-align: middle; font-weight:normal; }
+	img { border: 0 }
+	body { color: #000; -webkit-user-select: none; -webkit-text-size-adjust: none; font:normal 16px/200% "微软雅黑", helvetica, arial; text-align:left;   }
+	header, section, footer, img { display: block; margin: 0; padding: 0 }
+	a{text-decoration:none;color:#000;}
+
+	/* 本例子css -------------------------------------- */
+        .kuang{
+            width: 100%;
+        }
+	.slideBox{ position:relative; width:100%; overflow:hidden; margin:0 auto; }
+	.slideBox .hd{ position:absolute; height:28px; line-height:28px; bottom:0; right:0; z-index:1; }
+	.slideBox .hd li{ display:inline-block; width:5px; height:5px; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; background:#333; text-indent:-9999px; overflow:hidden; margin:0 6px;   }
+	.slideBox .hd li.on{ background:#fff;  }
+	.slideBox .bd{ position:relative; z-index:0; }
+	.slideBox .bd li{ position:relative;  }
+	.slideBox .bd li img{ width:100%; display:block;   }
+	.slideBox .bd li a{ -webkit-tap-highlight-color:rgba(0, 0, 0, 0); /* 取消链接高亮 */ }
+	.slideBox .bd li .tit{ display:block; width:100%;  position:absolute; bottom:0; text-indent:10px; height:28px; line-height:28px; background:url(images/focusBg.png) repeat-x; color:#fff;   }
+</style>
+   
+</head>
+<body>
+
+<div class="seek_banner">
+    <div class="banner_white">
+         <input type="text" class="right" placeholder="搜索商品">
+         <div class="left">
+               <div class="img">
+                <img src="images/seek.png" width="100%" alt="">
+               </div>
+         </div> 
+    </div>
+</div>
+
+<div class="banner">
+ 
+  <div id="content">
+			<div id="slideBox" class="slideBox">
+
+				<div class="bd">
+				<div class="kuang">
+				<ul>
+						<li>
+							<a class="pic" href="#"><img src="images/banner.png" width="100%" alt=""></a>
+						</li>
+						<li>
+							<a class="pic" href="#"><img src="images/banner.png" width="100%" alt=""></a>
+						</li>
+						<li>
+							<a class="pic" href="#"><img src="images/banner.png" width="100%" alt=""></a>
+						</li>
+					</ul>
+     
+               </div>
+					
+				</div>
+
+				<div class="hd">
+					<ul></ul>
+				</div>
+			</div>
+			<script type="text/javascript">
+				TouchSlide({ 
+					slideCell:"#slideBox",
+					titCell:".hd ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+					mainCell:".bd ul", 
+					effect:"leftLoop", 
+					autoPage:true //自动分页
+				});
+			</script>
+		
+
+	</div>
+   
+   
+<!--    <img src="images/banner.png" width="100%" alt="">-->
+</div>
+
+<div class="icon_line">
+        <div class="icon_left">
+            <div class="icon_img">&#xe636;</div>
+            <span class="font">会员中心</span>
+        </div>
+        <div class="icon_two">
+             <div class="icon_pic">&#xe680;</div>
+            <span class="font">生活缴费</span>
+        </div>
+        <div class="icon_three">
+             <div class="icon_pic_one">&#xe6f2;</div>
+            <span class="font">积分兑换</span>
+        </div>
+        <div class="icon_right">
+             <div class="icon_pic_two">&#xe60f;</div>
+            <span class="font">商品分类</span>
+        </div>
+</div>
+
+
+<div class="banner_">
+    <div class="banner_font">
+        <div class="line-left"></div>
+        <div class="line-center">节日礼品</div>
+        <div class="line-right"></div>
+    </div>
+</div>
+
+<div class="box">
+   <div class="boundary">
+    <div class="box_one">
+      
+       <div class="box_right">
+          <div class="left_up_right">
+              <div class="nan_img"></div>
+              <div class="nanjing">
+                 <div class="font-nan">南京特产</div>
+                  <span class="font-small">质出品质  造就口碑</span>
+              </div>
+          </div>
+          
+           <div class="left_up_right st">
+              <div class="nan_img img_one"></div>
+              <div class="nanjing">
+                 <div class="font-nan">菌菇礼盒</div>
+                  <span class="font-small">质出品质  造就口碑</span>
+              </div>
+          </div>
+          
+          
+          <div class="test">
+                    <div class="box_down_right">
+               <div class="nanjing">
+                <div class="font-nan_">礼盒卡券</div>
+                  <span class="font-small_">质出品质  造就口碑</span>
+                  <div class="img_benzi_"></div>
+              </div> 
+            </div>
+            <div class="box_down_left">
+                <div class="nanjing">
+                 <div class="font-nan_">食品礼包</div>
+                  <span class="font-small_">质出品质  造就口碑</span>
+                  <div class="img_three_"></div>
+              </div>
+            </div>
+            </div> 
+       </div>
+       
+       
+    <div class="box_left">
+        <div class="left_up">
+            <div class="font_one">
+                <div class="font_two">节日福利
+                <span class="font-small">质出品质  造就口碑</span>
+                </div>
+            </div>
+             <div class="font_img"></div>
+        </div>
+        <div class="left_down">
+            <div class="left_down_right">
+                <div class="nanjing_">
+                 <div class="font-nan_">时令海鲜</div>
+                  <span class="font-small_">质出品质  造就口碑</span>
+                  <div class="img_two_"></div>
+              </div>
+            </div>
+            <div class="left_down_left">
+                <div class="nanjing">
+                 <div class="font-nan_">五谷杂粮</div>
+                  <span class="font-small_">质出品质  造就口碑</span>
+                  <div class="img_down"></div>
+              </div>
+            </div>
+        </div>
+    </div>
+    </div>
+   </div>
+</div>
+
+<div class="banner_">
+    <div class="banner_font">
+        <div class="line-left font-two"></div>
+        <div class="line-center font-two_">虚拟卡券</div>
+        <div class="line-right font-two"></div>
+    </div>
+</div>
+
+
+<div class="box_vip">
+   <div class="boundary">
+    <div class="box_one_vip">
+      
+       <div class="box_right">
+          <div class="left_up_right">
+              <div class="icon-one"></div>
+              <div class="nanjing">
+                 <div class="font-nan">爱奇艺会员</div>
+                  <span class="font-small">质出品质  造就口碑</span>
+              </div>
+          </div>
+          
+             <div class="left_up_right st">
+              <div class="nan_img icon-two"></div>
+              <div class="nanjing">
+                 <div class="font-nan">优酷会员</div>
+                  <span class="font-small">质出品质  造就口碑</span>
+              </div>
+          </div>
+              
+      <div class="left_down_vip_">
+           <div class="vip_left test1">
+                 <div class="font-nan">唯品会卡</div>
+                  <span class="font-small">质出品质  造就口碑</span>
+              </div>
+            <div class="icon_vip_two"></div>
+            <div class="vip_left_down test1">
+                 <div class="font-nan">天猫银泰卡</div>
+                  <span class="font-small">质出品质  造就口碑</span>
+              </div>
+            <div class="icon_vip_last"></div>
+        </div>
+        
+        
+       </div>
+       
+       
+    <div class="box_left">
+        <div class="left_up">
+            <div class="font_one">
+                <div class="font_color">会员卡券
+                <span class="font-small">质出品质  造就口碑</span>
+                </div>
+            </div>
+             <div class="img_vip"></div>
+        </div>
+        
+        <div class="left_down_vip">
+           <div class="vip_left">
+                 <div class="font-nan">京东E卡</div>
+                  <span class="font-small">质出品质  造就口碑</span>
+              </div>
+            <div class="vip_right"></div>
+        </div>
+        <div class="left_down_vip">
+           <div class="vip_left">
+                 <div class="font-nan">亚马逊卡</div>
+                  <span class="font-small">质出品质  造就口碑</span>
+              </div>
+            <div class="vip_right_down"></div>
+        </div>
+    </div>
+    </div>
+   </div>
+</div>
+
+<div class="banner_">
+    <div class="banner_font">
+        <div class="line-left font-three"></div>
+        <div class="line-center font-three_">旅游推荐</div>
+        <div class="line-right font-three"></div>
+    </div>
+</div>
+
+<div class="box-two">
+    <div class="box_one_h">
+       <div class="box_right_h">
+          <div class="left_up_right">
+              <div class="img_ico_xie"></div>
+              <div class="nanjing">
+                 <div class="font-nan">携程任我行</div>
+                  <span class="font-small">质出品质  造就口碑</span>
+              </div>
+          </div>
+          
+           <div class="left_up_right_">
+              <div class="img_ico_you"></div>
+              <div class="nanjing">
+                 <div class="font-nan">携程任我游</div>
+                  <span class="font-small">质出品质  造就口碑</span>
+              </div>
+          </div>
+       </div>
+       
+    <div class="box_left_h">
+        <div class="left_up">
+            <div class="font_one">
+                <div class="font_color_two">畅玩世界
+                <span class="font-small">质出品质  造就口碑</span>
+                </div>
+            </div>
+             <div class="font_img_icon"></div>
+        </div>
+     
+    </div>
+    
+   </div>
+</div>
+
+<div class="banner_">
+    <div class="banner_font">
+        <div class="line-left color"></div>
+        <div class="line-center color_">潮品推荐</div>
+        <div class="line-right color"></div>
+    </div>
+</div>
+
+<div class="box">
+   <div class="boundary">
+    <div class="box_one">
+      
+       <div class="box_right">
+          <div class="left_up_right">
+              <div class="img_icon_19"></div>
+              <div class="nanjing">
+                 <div class="font-nan">双立人锅具</div>
+                  <span class="font-small">质出品质  造就口碑</span>
+              </div>
+          </div>
+          
+            <div class="fei">
+              <div class="img_icon_20"></div>
+              <div class="nanjing">
+                 <div class="font-nan">飞利浦剃须刀</div>
+                  <span class="font-small">质出品质  造就口碑</span>
+                </div>
+          </div>
+            <div class="test">
+                    <div class="box_down_right">
+               <div class="nanjing">
+                <div class="font-nan_">印象宝温杯</div>
+                  <span class="font-small_">质出品质  造就口碑</span>
+                  <div class="img_icon_23"></div>
+              </div> 
+            </div>
+            <div class="box_down_left">
+                <div class="nanjing">
+                 <div class="font-nan_">智能手环</div>
+                  <span class="font-small_">质出品质  造就口碑</span>
+                  <div class="img_icon_24"></div>
+              </div>
+            </div>
+            </div>  
+        
+        
+       </div>
+       
+       
+    <div class="box_left">
+        <div class="left_up">
+            <div class="font_one">
+                <div class="font_color_three">潮流新品
+                <span class="font-small">质出品质  造就口碑</span>
+                </div>
+            </div>
+             <div class="img_icon_17"></div>
+        </div>
+        <div class="left_down">
+            <div class="left_down_right">
+                <div class="nanjing_">
+                 <div class="font-nan_">南极人暖手宝</div>
+                  <span class="font-small_">质出品质  造就口碑</span>
+                  <div class="img_icon_21"></div>
+              </div>
+            </div>
+            <div class="left_down_left">
+                <div class="nanjing">
+                 <div class="font-nan_">折叠桌椅</div>
+                  <span class="font-small_">质出品质  造就口碑</span>
+                  <div class="img_icon_22"></div>
+              </div>
+            </div>
+        </div>
+    </div>
+    </div>
+   </div>
+</div>
+
+<div class="banner_">
+    <div class="banner_font">
+        <div class="line-left color_l"></div>
+        <div class="line-center color_t">体检健身</div>
+        <div class="line-right color_l"></div>
+    </div>
+</div>
+
+<div class="box_vip_">
+   <div class="boundary">
+    <div class="box_one_vip_">
+      
+       <div class="box_right_">
+          <div class="left_up_right">
+              <div class="icon-one_t"></div>
+              <div class="nanjing">
+                 <div class="font-nan">青年体检</div>
+                  <span class="font-small">质出品质  造就口碑</span>
+              </div>
+          </div>
+          
+            <div class="left_up_right_">
+              <div class="icon-two_t"></div>
+              <div class="nanjing">
+                 <div class="font-nan">老年体检</div>
+                  <span class="font-small">质出品质  造就口碑</span>
+              </div>
+          </div>
+              
+          <div class="left_down_vip_">
+           <div class="vip_left test1">
+                 <div class="font-nan">健身年卡</div>
+                  <span class="font-small">质出品质  造就口碑</span>
+              </div>
+            <div class="vip_right_t"></div>
+           
+        </div>
+        
+       </div>
+       
+    <div class="box_left_">
+        <div class="left_up">
+            <div class="font_one">
+                <div class="font_color color_t">健康生活
+                <span class="font-small">质出品质  造就口碑</span>
+                </div>
+            </div>
+             <div class="img_vip_t"></div>
+        </div>
+        
+        <div class="left_down_vip">
+           <div class="vip_left">
+                 <div class="font-nan">健身月卡</div>
+                  <span class="font-small">质出品质  造就口碑</span>
+              </div>
+            <div class="vip_right_t"></div>
+           
+        </div>
+    </div>
+    </div>
+   </div>
+</div>
+
+<div class="banner_">
+    <div class="banner_font">
+        <div class="line-left color_p_l"></div>
+        <div class="line-center color_p">培训教育</div>
+        <div class="line-right color_p_l"></div>
+    </div>
+</div>
+
+<div class="box_vip_">
+   <div class="boundary">
+    <div class="box_one_vip_">
+      
+       <div class="box_right_">
+          <div class="left_up_right">
+              <div class="icon-one_p"></div>
+              <div class="nanjing">
+                 <div class="font-nan">金融管理</div>
+                  <span class="font-small">质出品质  造就口碑</span>
+              </div>
+          </div>
+          
+       <div class="left_up_right st">
+              <div class="icon-two_p"></div>
+              <div class="nanjing">
+                 <div class="font-nan">本科英语</div>
+                  <span class="font-small">质出品质  造就口碑</span>
+              </div>
+          </div>
+              
+         <div class="left_down_vip_">
+           <div class="vip_left test1">
+                 <div class="font-nan">早教体检</div>
+                  <span class="font-small">质出品质  造就口碑</span>
+              </div>
+            <div class="icon_vip_two_p"></div>
+           
+        </div>
+        
+        
+       </div>
+       
+       
+    <div class="box_left_">
+        <div class="left_up">
+            <div class="font_one">
+                <div class="font_color_p">特色教育
+                <span class="font-small">质出品质  造就口碑</span>
+                </div>
+            </div>
+             <div class="img_vip_p"></div>
+        </div>
+        
+        <div class="left_down_vip">
+           <div class="vip_left">
+                 <div class="font-nan">硕研考试</div>
+                  <span class="font-small">质出品质  造就口碑</span>
+              </div>
+            <div class="vip_right_p"></div>
+           
+        </div>
+    </div>
+    </div>
+   </div>
+</div>
+     
+<div class="bos_last">
+           <div class="icon_left_last">
+            <div class="pic_shou">&#xe600;</div>
+            <span class="font shou">首页</span>
+        </div>
+        <div class="icon_two_last">
+             <div class="pic_fen">&#xe60f;</div>
+            <span class="font">分类</span>
+        </div>
+        <div class="icon_three_last">
+             <div class="pic_gou">&#xe66d;</div>
+            <span class="font">购物车</span>
+        </div>
+        <div class="icon_right_last">
+             <div class="pic_my">&#xe655;</div>
+            <span class="font">我的</span>
+        </div>
+</div>
+</body>
+</html>
+<script type="text/javascript">
+//百度统计代码
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fa630f96b6a9dd549675d26373853f7f1' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+
+
+
+
+
+
+
+
